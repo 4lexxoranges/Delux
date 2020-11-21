@@ -9,10 +9,11 @@ namespace Delux
     {
         Cars cars = new Cars();
         Program program = new Program();
+        Bank bank = new Bank();
         string userInput;
         public void Delux()
         {
-            Bank bank = new Bank();
+            
             Console.Clear();
             Console.WriteLine("Welcome. to DillerShop < Delux >!");
             Console.WriteLine("We have Lamborghini Huracan - 102 000$,\nFerrari Spider - 152 000$\nKoenigsegg Agera R - 10 000 000$");
@@ -33,16 +34,18 @@ namespace Delux
                     case "1":
                         Console.WriteLine("Which color you change");
                         Console.WriteLine("1 - Black\n2 - Red\n3 - Orange");
+                        userInput = Console.ReadLine();
                         if(userInput == "1")
                         {
                             Console.WriteLine("Ok, you buy Laborghini Aventador, black color, 770HP, Max Speed - 250km/h, weight - 1600kg");
-                            bank.moneyUserInBank -= cars.Lamborghini(carPrice);
+                            //bank.moneyUserInBank -= cars.Lamborghini(carPrice);
 
                         }
                         if (userInput == "2")
                         {
                             Console.WriteLine("Ok, you buy Laborghini Aventador, red color, 770HP, Max Speed - 250km/h, weight - 1600kg");
-                            bank.moneyUserInBank -= cars.Lamborghini();
+                            bank.moneyUserInBank -= cars.carPrice;
+                            Console.WriteLine(bank.moneyUserInBank);
                         }
                         if (userInput == "3")
                         {
