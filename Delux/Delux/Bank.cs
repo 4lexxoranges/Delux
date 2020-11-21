@@ -5,17 +5,22 @@ using System.Text;
 
 namespace Delux
 {
-    class Bank
+    public class Bank
     {
-        DillerShop dillerShop = new DillerShop();
+        Random rand = new Random();
+        //DillerShop dillerShop = new DillerShop();
         Program program = new Program();
-        public int moneyUserInBank = 1000000;
+        public int moneyUserInBank;
         public string userInputBank;
         public string userInputTopUpBalance;
         public string userInputTransferBalance;
         public string userInputTransferBalance2;
         string userID; //user666@gmail.com
         string userPassword; //QWERTY12345
+        public Bank()
+        {
+            moneyUserInBank = rand.Next(10000, 20000000);
+        }
         public void GoToBank()
         {
             Console.Clear();

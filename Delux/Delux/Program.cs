@@ -43,47 +43,4 @@ namespace ShopCar
             }
         }
     }
-    class Lamborghini
-    {
-        string userInput;
-        public int lamborghiniHuracanCount;
-        public int lamborghiniHuracanInStockCount = 19;
-        public int lamborghiniHuracanPrice = 152000;
-        public int lamborghiniHP = 770;
-        public int lamborghiniMaxSpeed = 300;
-        public int lamborghiniWeight = 1600;
-        public void BuyLamborghini()
-        {
-            Console.Clear();
-            Console.WriteLine("Ok, you change Lamborghini");
-        }
-    }
-    class Ferrari
-    {
-        public int ferrariSpiderCount;
-        public int ferrariSpiderInStockCount = 20;
-        public int ferrariSpiderPrice = 291000;
-        public int ferrariHP = 699;
-        public int ferrariMaxSpeed = 260;
-        public int ferrariWeight = 1600;
-        public void BuyFerrari()
-        {
-            Console.Clear();
-            Console.WriteLine("Ok, you change Ferrari");
-        }
-    }
-    class Koenigsegg
-    {
-        public int koenigseggAgeraRCount;
-        public int koenigseggAgeraRInStockCount = 5;
-        public int koenigseggAgeraRPrice = 10000000;
-        public int koenigseggHP = 1600;
-        public int koenigseggMaxSpeed = 424;
-        public int koenigseggWeight = 1600;
-        public void BuyKoenigsegg()
-        {
-            Console.Clear();
-            Console.WriteLine("Ok, you change Koenigsegg");
-        }
-    }
 }
