@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShopCar;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -52,7 +53,7 @@ namespace Delux
                     break;
             }
         }
-        public void BankEntrance()
+        void BankEntrance()
         {
             Console.Clear();
             Console.WriteLine("Congratulations! You in a PrivatBank.");
