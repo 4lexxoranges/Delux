@@ -10,7 +10,6 @@ namespace ShopCar
             Bank bank = new Bank();
             DillerShop dillerShop = new DillerShop();
             string userInput;
-            int rfhddfznjs;
             Console.WriteLine("Hi, you play in the real life");
             Console.WriteLine("Go to bank - so that check your balance in bank");
             Console.WriteLine("1 - we go to Bank\n2 - we go to Diller Shop");
