@@ -5,6 +5,7 @@ namespace ShopCar
 {
     class Program
     {
+        public int njsgnsj;
 
         static void Main(string[] args)
         {
