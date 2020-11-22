@@ -6,6 +6,7 @@ namespace Delux
 {
     class Cars
     {
+        int dasdaf;
         Bank bank = new Bank();
         //public int CarPrice;
         //public int CarHP;
